@@ -1,6 +1,6 @@
 ## Tango Cordova Demo
 
-This is a project to demonstrate integration of Tango Targeting SDK in a Cordova project.
+This is a project to demonstrate integration of Tango Targeting SDK in a Cordova project using `cordova-plugin-tango`.
 
 ## Make it work
 
@@ -39,3 +39,7 @@ A hook (see `/hooks/before_build.js`) will read these values and place them in a
 
 Use `cordova build` then `cordova run` to build and run the project. Create some campaigns and send them for testing purposes. Additionally, check the logs in a LogCat for Android.
 
+### Notes
+
+* See [Tango Targeting Cordova Plugin Documentation](https://github.com/tangotargeting/cordova-plugin-tango)
+* Open `www/js/index.js` to see how `TangoPlugin` is used in this project.
