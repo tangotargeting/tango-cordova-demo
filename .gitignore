@@ -1,0 +1,4 @@
+config_values.json
+/node_modules
+/plugins
+/platforms
